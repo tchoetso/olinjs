@@ -1,0 +1,11 @@
+<ul>
+{{#each listingredients}}
+  <form action="Blank" method="GET" class = "editForm" style='float:left;'>
+  Name: <input type="text" name="name" value="{{this.name}}"/>
+  Price: <input type="text" name="price" value="{{this.price}}"/>
+   </form>
+  <form action="Blank" method="GET" class = "outForm">
+  	<input type="text" name="id" value="{{this._id}}" style='display: none;'/>
+   </form>
+{{/each}}
+</ul>
