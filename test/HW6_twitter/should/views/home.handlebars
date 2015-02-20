@@ -1,0 +1,28 @@
+<div class='col1'>
+	<form id="add-form" action="addTwot" method="POST">
+	  <input class="field" type="text" name="message"/><br/>
+	  <input class="submit" type="submit" value="Submit"/>
+	  <div id="userID">{{mainUser.username}}</div>
+	</form>
+
+	<div class='twot-list'>
+		{{#each twot}}
+		<div class="twot {{this.author}}">
+		<div class="twot-m">{{this.message}}</div>
+		<div class="twot-a">{{this.author}}</div>
+		{{#if this.mine}}
+			<button type="button" class='trashButton' id='{{this.id}}'>X</button>
+		{{/if}}
+		</div>
+		{{/each}}
+	</div>
+</div>
+
+<div class='col2'>
+	<button type="button" class='logButton'>{{logVal}}</button>
+	
+	{{#each user}}
+	<button type="button" class='userButton'>{{this.username}}</button>
+	{{/each}}
+	
+</div>
