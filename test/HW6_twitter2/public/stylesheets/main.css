@@ -1,0 +1,142 @@
+body {
+    background-image: url("fabric_of_squares_gray.png");
+    background-size: auto;  /*makes sure you can scroll down */
+    background-repeat: repeat;
+}
+
+input[type="text"] {
+	margin-left: 680px;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: lightblue;
+
+}
+
+.button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.delete {
+  background-image: -webkit-linear-gradient(top, #f73c2e, #f73c2e);
+  background-image: -moz-linear-gradient(top, #f73c2e, #f73c2e);
+  background-image: -ms-linear-gradient(top, #f73c2e, #f73c2e);
+  background-image: -o-linear-gradient(top, #f73c2e, #f73c2e);
+  background-image: linear-gradient(to bottom, #f73c2e, #f73c2e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float: right;
+  }
+
+.delete:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #ff887f, #ff887f);
+  background-image: -moz-linear-gradient(top, #ff887f, #ff887f);
+  background-image: -ms-linear-gradient(top, #ff887f, #ff887f);
+  background-image: -o-linear-gradient(top, #ff887f, #ff887f);
+  background-image: linear-gradient(to bottom, #ff887f, #ff887f);
+  text-decoration: none;
+}
+
+#newTwote {
+	background: rgb(28, 184, 65);
+	width: 150px;
+    height: 30px;
+    font-weight: bold;
+    float: right;
+
+}
+
+.user{
+    background: rgb(28, 184, 65);
+	width: 150px;
+    height: 30px;
+    font-weight: bold;	
+}
+
+ul {
+	padding: 0px;
+}
+
+
+#login-logout {
+	float: left;
+}
+
+h1 {
+    color: #404040;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #383838  ;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+li {
+	list-style-type: none;
+	width: 80%;
+	float: left;
+}
+
+.Twotes{
+	 color: #404040;
+    font-size: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.User{
+	 color: #404040;
+    font-size: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#login-logout {
+	float: left;
+}
+
+#twotecontain {
+	width: 58%;
+	float: left;
+}
+
+
+
+}
